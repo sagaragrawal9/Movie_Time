@@ -180,7 +180,7 @@ export const TvDetail = () => {
       {/* part 5 */}
       <hr className="mt-10 mb-5 border-none h-[2px] bg-zinc-400" />
       <h1 className="text-xl font-semibold text-white">
-        Recommandations and Similar tv 
+        Recommendations and Similar tv 
       </h1>
       <HorizontalCards data={info.recommendations || info.similar} />
 
