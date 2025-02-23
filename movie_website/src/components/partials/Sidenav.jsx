@@ -26,7 +26,7 @@ export const Sidenav = () => {
             Website Information
           </h1>
           <Link target="_blank" to={`https://sagaragrawal9.github.io/front-end-project/`} className="hover:bg-white hover:text-black duration-300 rounded-xl p-4"><i className="mr-2 ri-contacts-line"></i>About Me</Link>
-          <Link className="hover:bg-white hover:text-black duration-300 rounded-xl p-4"><i className="mr-2 ri-code-s-slash-line"></i>Codebase</Link>
+          <Link target="_blank" to={`https://movie-time-gilt.vercel.app/`} className="hover:bg-white hover:text-black duration-300 rounded-xl p-4"><i className="mr-2 ri-code-s-slash-line"></i>Codebase</Link>
         </nav>
       </div>
     </>
