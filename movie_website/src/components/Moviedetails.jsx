@@ -155,7 +155,7 @@ export const Moviedetails = () => {
       {/* part 4 */}
       <hr className="mt-10 mb-5 border-none h-[2px] bg-zinc-400" />
       <h1 className="text-xl font-semibold text-white">
-        Recommandations and Similar Movies
+        Recommendations and Similar Movies
       </h1>
       <HorizontalCards data={info.recommendations || info.similar} />
 
