@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global black background */
+html, body {
+  background-color: black !important;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background-color: black !important;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 7px;

@@ -29,7 +29,7 @@ export const Moviedetails = () => {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
-      className="relative w-screen min-h-screen px-4 sm:px-6 lg:px-[10%]"
+      className="relative w-screen min-h-screen px-4 sm:px-6 lg:px-[10%] bg-black"
     >
       <nav className="h-[10vh] w-full text-zinc-100 flex items-center gap-4 sm:gap-6 lg:gap-10 text-lg sm:text-xl">
         <Link
@@ -164,6 +164,8 @@ export const Moviedetails = () => {
 
       <Outlet/>      
 
+      {/* Black background overlay to cover any white space */}
+      <div className="absolute inset-0 bg-black pointer-events-none" style={{ zIndex: -1 }}></div>
     </div>
   ) : (
     <Loading />

@@ -4,7 +4,7 @@ import noimage from "/noimage.png"
 
 export const Cards = ({ data, title }) => {
   return (
-    <div className="mt-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-6 w-full h-full px-4 sm:px-[3%] bg-black">
+    <div className="mt-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-6 w-full h-full px-4 sm:px-[3%] bg-black pb-8">
       {data.map((c, i) => (
         <Link 
           to={`/${c.media_type || title}/details/${c.id}`} 

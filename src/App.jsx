@@ -13,7 +13,7 @@ import Notfound from "./components/Notfound";
 
 function App() {
   return (
-    <div className="bg-gray-950 w-screen h-screen flex flex-col lg:flex-row">
+    <div className="bg-black w-screen h-screen flex flex-col lg:flex-row">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/trending" element={<Trending />} />
